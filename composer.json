@@ -1,0 +1,53 @@
+{
+    "name": "gopayee/cashier-usage",
+    "description": "Cashier USage is a simple quota feature usage tracker for Laravel Cashier subscriptions.",
+    "keywords": ["laravel", "php", "saas"," subscription", "plans", "cashier", "stripe", "paddle", "quota", "quotas"],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/renoki-co/cashier-register",
+    "authors": [
+        {
+            "name": "Gopayee",
+            "homepage": "https://github.com/gopayee",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.40",
+        "illuminate/support": "^8.40"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gopayee\\CashierRegister\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gopayee\\CashierRegister\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "suggest": {
+        "doctrine/dbal": "Required by Cashier to modify tables in the database.",
+        "laravel/cashier": "Required in case you are using Stripe.",
+        "laravel/cashier-paddle": "Required in case you are using Paddle."
+    },
+    "require-dev": {
+        "laravel/legacy-factories": "^1.1",
+        "mockery/mockery": "^1.4",
+        "orchestra/database": "^5.0|^6.0",
+        "orchestra/testbench": "^5.0|^6.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gopayee\\CashierRegister\\CashierRegisterServiceProvider"
+            ]
+        }
+    }
+}
