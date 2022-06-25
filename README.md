@@ -15,7 +15,7 @@ It helps you define static, project-level plans, and attach features that can be
 
 ## 📃 Documentation
 
-[The entire documentation is available on Gitbook 🌍](https://rennokki.gitbook.io/cashier-register/)
+[The entire documentation is available on Gitbook 🌍](https://nate-corkish.gitbook.io/cashier-usage/)
 
 ## 🐛 Testing
 
