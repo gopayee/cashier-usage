@@ -1,7 +1,6 @@
 Cashier Usage - Track the plan quotas
 ===========================================
 
-![CI](https://github.com/gopayee/cashier-usage/workflows/CI/badge.svg?branch=master)
 [![codecov](https://codecov.io/gh/gopayee/cashier-usage/branch/master/graph/badge.svg)](https://codecov.io/gh/gopayee/cashier-usage/branch/master)
 [![StyleCI](https://github.styleci.io/repos/277109456/shield?branch=master)](https://github.styleci.io/repos/277109456)
 [![Latest Stable Version](https://poser.pugx.org/gopayee/cashier-usage/v/stable)](https://packagist.org/packages/gopayee/cashier-usage)
@@ -15,7 +14,7 @@ It helps you define static, project-level plans, and attach features that can be
 
 ## 📃 Documentation
 
-[The entire documentation is available on Gitbook 🌍](https://nate-corkish.gitbook.io/cashier-usage/)
+[The entire documentation is available here 🌍](http://gopayee.com/cashier-usage-docs/)
 
 ## 🐛 Testing
 
